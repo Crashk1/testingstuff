@@ -22,5 +22,12 @@ public class JugadorTest {
 		
 		assertEquals(ve,maradona.getValor2());
 	}
-	
+
+	@Test
+	public void queValor3RetorneCorrectamente() {
+		Jugador maradona = new Jugador(1,2,3,4);
+		Integer ve=3;
+		
+		assertEquals(ve,maradona.getValor3());
+	}
 }
